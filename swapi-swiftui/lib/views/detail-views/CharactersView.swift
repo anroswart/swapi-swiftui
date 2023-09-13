@@ -18,9 +18,18 @@ struct CharactersView: View {
             }
         }
         .navigationBarBackButtonHidden(true)
-        .navigationBarItems(leading: Button("Back") {
+        .navigationBarItems(leading: Button(action: {
             router.pop()
-        })
+        }, label: {
+            Text("Back")
+                .foregroundColor(Color("bananna-yellow"))
+        }))
+        .background {
+            Image("background")
+                .scaledToFit()
+                .ignoresSafeArea()
+        }
+        .scrollContentBackground(.hidden)
     }
 }
 

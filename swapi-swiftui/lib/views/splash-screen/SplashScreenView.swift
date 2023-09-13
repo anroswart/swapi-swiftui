@@ -23,7 +23,7 @@ struct SplashScreenView: View {
     var body: some View {
         ZStack {
             GeometryReader { geometry in
-                Image("background")
+                Image("splash-background")
                     .resizable()
                     .scaledToFill()
                     .ignoresSafeArea()
@@ -37,7 +37,7 @@ struct SplashScreenView: View {
                 
                 VStack {
                     Spacer()
-                    Image("sw-splash")
+                    Image("splash-logo")
                         .resizable()
                         .scaledToFit()
                         .frame(maxWidth: geometry.size.width - 160)

@@ -14,17 +14,18 @@ struct FilmPosterView: View {
     var body: some View {
         ZStack {
             Color.white
-            VStack(spacing: 10) {
+            VStack {
                 Image(uiImage: UIImage(data: imageData) ?? UIImage(systemName: "exclamationmark.triangle")!)
                     .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .cornerRadius(10)
+                    .aspectRatio(contentMode: .fit)
+                    .cornerRadius(5)
                     .shadow(radius: 5)
+                    .frame(maxHeight: UIScreen.main.bounds.height - 160)
                 
                 Text(movieTitle)
                     .font(.headline)
                     .multilineTextAlignment(.center)
-                    .padding(.horizontal, 10)
+                    .padding(.bottom, 16)
                     .lineLimit(2)
                     .minimumScaleFactor(0.5)
             }

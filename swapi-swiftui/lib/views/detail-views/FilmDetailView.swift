@@ -15,7 +15,7 @@ struct FilmDetailView: View {
     var body: some View {
         ZStack(alignment: .topTrailing) {
             RoundedRectangle(cornerRadius: 10)
-                .fill(Color.white)
+                .fill(Color.gray)
                 .shadow(radius: 5)
                 .overlay(
                     VStack(spacing: 10) {
@@ -47,12 +47,12 @@ struct FilmDetailView: View {
                             )
                         } label: {
                             Text("View film characters")
+                                .foregroundColor(Color("bananna-yellow"))
                         }
                     }
                         .padding()
                 )
-                .frame(maxWidth: .infinity)
-                .padding(.horizontal, 10)
+                .padding(EdgeInsets(top: 40, leading: 16, bottom: 40, trailing: 16))
             
             Button(action: {
                 router.pop()
@@ -62,9 +62,14 @@ struct FilmDetailView: View {
                     .foregroundColor(.red)
                     .padding()
             }
-            .padding([.top, .trailing], 16)
+            .padding(EdgeInsets(top: 56, leading: 0, bottom: 0, trailing: 32))
         }
         .navigationBarBackButtonHidden(true)
+        .background {
+            Image("background")
+                .scaledToFit()
+                .ignoresSafeArea()
+        }
     }
 }
 

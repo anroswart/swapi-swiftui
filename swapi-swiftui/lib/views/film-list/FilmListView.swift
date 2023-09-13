@@ -29,7 +29,12 @@ struct FilmListView: View {
             }
             .padding(10)
         }
-        .navigationBarTitle("Star Wars")
+        .navigationBarTitle("Star Wars Films")
+        .background {
+            Image("background")
+                .scaledToFit()
+                .ignoresSafeArea()
+        }
     }
 }
 
