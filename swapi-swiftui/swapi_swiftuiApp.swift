@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct swapi_swiftuiApp: App {
+    @ObservedObject private var router = RouterService()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(router)
         }
     }
 }

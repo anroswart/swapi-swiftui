@@ -14,6 +14,29 @@
 		74995F212AAE0D3F001CC74B /* swapi_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74995F202AAE0D3F001CC74B /* swapi_swiftuiTests.swift */; };
 		74995F2B2AAE0D3F001CC74B /* swapi_swiftuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74995F2A2AAE0D3F001CC74B /* swapi_swiftuiUITests.swift */; };
 		74995F2D2AAE0D3F001CC74B /* swapi_swiftuiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74995F2C2AAE0D3F001CC74B /* swapi_swiftuiUITestsLaunchTests.swift */; };
+		74995F402AAF6E97001CC74B /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74995F3F2AAF6E97001CC74B /* SplashScreenView.swift */; };
+		74995F432AAF6F0A001CC74B /* RouterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74995F422AAF6F0A001CC74B /* RouterService.swift */; };
+		74995F442AAF6F0A001CC74B /* RouterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74995F422AAF6F0A001CC74B /* RouterService.swift */; };
+		74995F462AAF72DF001CC74B /* FilmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74995F452AAF72DF001CC74B /* FilmService.swift */; };
+		74995F472AAF72DF001CC74B /* FilmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74995F452AAF72DF001CC74B /* FilmService.swift */; };
+		74995F492AAF733C001CC74B /* SwapiClientService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74995F482AAF733C001CC74B /* SwapiClientService.swift */; };
+		74995F4A2AAF733C001CC74B /* SwapiClientService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74995F482AAF733C001CC74B /* SwapiClientService.swift */; };
+		74995F4F2AAF73FD001CC74B /* Swapi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74995F4C2AAF73FD001CC74B /* Swapi.swift */; };
+		74995F502AAF73FD001CC74B /* Swapi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74995F4C2AAF73FD001CC74B /* Swapi.swift */; };
+		74995F512AAF73FD001CC74B /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74995F4D2AAF73FD001CC74B /* Film.swift */; };
+		74995F522AAF73FD001CC74B /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74995F4D2AAF73FD001CC74B /* Film.swift */; };
+		74995F532AAF73FD001CC74B /* TmdbSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74995F4E2AAF73FD001CC74B /* TmdbSearch.swift */; };
+		74995F542AAF73FD001CC74B /* TmdbSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74995F4E2AAF73FD001CC74B /* TmdbSearch.swift */; };
+		74995F562AAF768E001CC74B /* TmdbClientService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74995F552AAF768E001CC74B /* TmdbClientService.swift */; };
+		74995F572AAF768E001CC74B /* TmdbClientService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74995F552AAF768E001CC74B /* TmdbClientService.swift */; };
+		74995F592AAF7724001CC74B /* NetworkingUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74995F582AAF7724001CC74B /* NetworkingUtils.swift */; };
+		74995F5A2AAF7724001CC74B /* NetworkingUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74995F582AAF7724001CC74B /* NetworkingUtils.swift */; };
+		74995F5C2AB17612001CC74B /* SplashScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74995F5B2AB17612001CC74B /* SplashScreenViewModel.swift */; };
+		74995F5D2AB17612001CC74B /* SplashScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74995F5B2AB17612001CC74B /* SplashScreenViewModel.swift */; };
+		74995F5F2AB180FE001CC74B /* FilmDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74995F5E2AB180FE001CC74B /* FilmDetailView.swift */; };
+		74995F632AB18260001CC74B /* FilmListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74995F622AB18260001CC74B /* FilmListView.swift */; };
+		74995F652AB1AAAE001CC74B /* CharactersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74995F642AB1AAAE001CC74B /* CharactersView.swift */; };
+		74995F672AB1AD3F001CC74B /* FilmPosterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74995F662AB1AD3F001CC74B /* FilmPosterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +68,20 @@
 		74995F262AAE0D3F001CC74B /* swapi-swiftuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swapi-swiftuiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74995F2A2AAE0D3F001CC74B /* swapi_swiftuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swapi_swiftuiUITests.swift; sourceTree = "<group>"; };
 		74995F2C2AAE0D3F001CC74B /* swapi_swiftuiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swapi_swiftuiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		74995F3F2AAF6E97001CC74B /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		74995F422AAF6F0A001CC74B /* RouterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterService.swift; sourceTree = "<group>"; };
+		74995F452AAF72DF001CC74B /* FilmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmService.swift; sourceTree = "<group>"; };
+		74995F482AAF733C001CC74B /* SwapiClientService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapiClientService.swift; sourceTree = "<group>"; };
+		74995F4C2AAF73FD001CC74B /* Swapi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swapi.swift; sourceTree = "<group>"; };
+		74995F4D2AAF73FD001CC74B /* Film.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		74995F4E2AAF73FD001CC74B /* TmdbSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TmdbSearch.swift; sourceTree = "<group>"; };
+		74995F552AAF768E001CC74B /* TmdbClientService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmdbClientService.swift; sourceTree = "<group>"; };
+		74995F582AAF7724001CC74B /* NetworkingUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingUtils.swift; sourceTree = "<group>"; };
+		74995F5B2AB17612001CC74B /* SplashScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewModel.swift; sourceTree = "<group>"; };
+		74995F5E2AB180FE001CC74B /* FilmDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDetailView.swift; sourceTree = "<group>"; };
+		74995F622AB18260001CC74B /* FilmListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmListView.swift; sourceTree = "<group>"; };
+		74995F642AB1AAAE001CC74B /* CharactersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersView.swift; sourceTree = "<group>"; };
+		74995F662AB1AD3F001CC74B /* FilmPosterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmPosterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +132,7 @@
 		74995F0D2AAE0D3D001CC74B /* swapi-swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				74995F392AAE0E39001CC74B /* lib */,
 				74995F0E2AAE0D3D001CC74B /* swapi_swiftuiApp.swift */,
 				74995F102AAE0D3D001CC74B /* ContentView.swift */,
 				74995F122AAE0D3E001CC74B /* Assets.xcassets */,
@@ -127,6 +165,83 @@
 				74995F2C2AAE0D3F001CC74B /* swapi_swiftuiUITestsLaunchTests.swift */,
 			);
 			path = "swapi-swiftuiUITests";
+			sourceTree = "<group>";
+		};
+		74995F392AAE0E39001CC74B /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				74995F4B2AAF735F001CC74B /* models */,
+				74995F3D2AAE0E9A001CC74B /* utils */,
+				74995F3C2AAE0E7F001CC74B /* services */,
+				74995F3B2AAE0E6A001CC74B /* views */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		74995F3A2AAE0E41001CC74B /* film-list */ = {
+			isa = PBXGroup;
+			children = (
+				74995F622AB18260001CC74B /* FilmListView.swift */,
+				74995F662AB1AD3F001CC74B /* FilmPosterView.swift */,
+			);
+			path = "film-list";
+			sourceTree = "<group>";
+		};
+		74995F3B2AAE0E6A001CC74B /* views */ = {
+			isa = PBXGroup;
+			children = (
+				74995F612AB18200001CC74B /* detail-views */,
+				74995F3E2AAF6E27001CC74B /* splash-screen */,
+				74995F3A2AAE0E41001CC74B /* film-list */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		74995F3C2AAE0E7F001CC74B /* services */ = {
+			isa = PBXGroup;
+			children = (
+				74995F422AAF6F0A001CC74B /* RouterService.swift */,
+				74995F452AAF72DF001CC74B /* FilmService.swift */,
+				74995F482AAF733C001CC74B /* SwapiClientService.swift */,
+				74995F552AAF768E001CC74B /* TmdbClientService.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		74995F3D2AAE0E9A001CC74B /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				74995F582AAF7724001CC74B /* NetworkingUtils.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		74995F3E2AAF6E27001CC74B /* splash-screen */ = {
+			isa = PBXGroup;
+			children = (
+				74995F3F2AAF6E97001CC74B /* SplashScreenView.swift */,
+				74995F5B2AB17612001CC74B /* SplashScreenViewModel.swift */,
+			);
+			path = "splash-screen";
+			sourceTree = "<group>";
+		};
+		74995F4B2AAF735F001CC74B /* models */ = {
+			isa = PBXGroup;
+			children = (
+				74995F4D2AAF73FD001CC74B /* Film.swift */,
+				74995F4C2AAF73FD001CC74B /* Swapi.swift */,
+				74995F4E2AAF73FD001CC74B /* TmdbSearch.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		74995F612AB18200001CC74B /* detail-views */ = {
+			isa = PBXGroup;
+			children = (
+				74995F5E2AB180FE001CC74B /* FilmDetailView.swift */,
+				74995F642AB1AAAE001CC74B /* CharactersView.swift */,
+			);
+			path = "detail-views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +374,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74995F432AAF6F0A001CC74B /* RouterService.swift in Sources */,
+				74995F562AAF768E001CC74B /* TmdbClientService.swift in Sources */,
+				74995F632AB18260001CC74B /* FilmListView.swift in Sources */,
+				74995F492AAF733C001CC74B /* SwapiClientService.swift in Sources */,
+				74995F532AAF73FD001CC74B /* TmdbSearch.swift in Sources */,
+				74995F5F2AB180FE001CC74B /* FilmDetailView.swift in Sources */,
+				74995F402AAF6E97001CC74B /* SplashScreenView.swift in Sources */,
+				74995F5C2AB17612001CC74B /* SplashScreenViewModel.swift in Sources */,
 				74995F112AAE0D3D001CC74B /* ContentView.swift in Sources */,
+				74995F4F2AAF73FD001CC74B /* Swapi.swift in Sources */,
+				74995F512AAF73FD001CC74B /* Film.swift in Sources */,
+				74995F652AB1AAAE001CC74B /* CharactersView.swift in Sources */,
+				74995F592AAF7724001CC74B /* NetworkingUtils.swift in Sources */,
 				74995F0F2AAE0D3D001CC74B /* swapi_swiftuiApp.swift in Sources */,
+				74995F462AAF72DF001CC74B /* FilmService.swift in Sources */,
+				74995F672AB1AD3F001CC74B /* FilmPosterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +397,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74995F472AAF72DF001CC74B /* FilmService.swift in Sources */,
+				74995F572AAF768E001CC74B /* TmdbClientService.swift in Sources */,
+				74995F522AAF73FD001CC74B /* Film.swift in Sources */,
+				74995F442AAF6F0A001CC74B /* RouterService.swift in Sources */,
+				74995F5A2AAF7724001CC74B /* NetworkingUtils.swift in Sources */,
+				74995F542AAF73FD001CC74B /* TmdbSearch.swift in Sources */,
 				74995F212AAE0D3F001CC74B /* swapi_swiftuiTests.swift in Sources */,
+				74995F4A2AAF733C001CC74B /* SwapiClientService.swift in Sources */,
+				74995F502AAF73FD001CC74B /* Swapi.swift in Sources */,
+				74995F5D2AB17612001CC74B /* SplashScreenViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
