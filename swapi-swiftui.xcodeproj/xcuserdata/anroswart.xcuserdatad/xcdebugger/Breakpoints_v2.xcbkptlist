@@ -66,6 +66,38 @@
             endingLineNumber = "18"
             landmarkName = "body"
             landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "A4924EA7-071B-44C3-9104-C31E6124765E - 6fce3455520f39ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (swapi_swiftui.Film) -&gt; Swift.Optional&lt;&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;swapi_swiftui.Film&gt;, Swift.ObjectIdentifier, Swift.Optional&lt;&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0 in swapi_swiftui.FilmListView.body.getter : some"
+                  moduleName = "swapi-swiftui"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anroswart/Development/anro/swapi-swiftui/swapi-swiftui/lib/views/film-list/FilmListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "424">
+               </Location>
+               <Location
+                  uuid = "A4924EA7-071B-44C3-9104-C31E6124765E - 6fce3455520f39ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (swapi_swiftui.Film) -&gt; Swift.Optional&lt;&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;swapi_swiftui.Film&gt;, Swift.ObjectIdentifier, Swift.Optional&lt;&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0 in swapi_swiftui.FilmListView.body.getter : some"
+                  moduleName = "swapi-swiftui"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anroswart/Development/anro/swapi-swiftui/swapi-swiftui/lib/views/film-list/FilmListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "1336">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
