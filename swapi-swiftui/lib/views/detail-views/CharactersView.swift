@@ -7,6 +7,14 @@
 
 import SwiftUI
 
+struct DarkListStyle: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .listRowBackground(Color.black)
+            .listRowSeparatorTint(Color("bananna-yellow"))
+    }
+}
+
 struct CharactersView: View {
     @EnvironmentObject private var router: RouterService
     let characters: [String]
@@ -15,6 +23,8 @@ struct CharactersView: View {
         List {
             ForEach(characters, id: \.self) { character in
                 Text(character)
+                    .foregroundColor(Color("bananna-yellow"))
+                    .modifier(DarkListStyle()) 
             }
         }
         .navigationBarBackButtonHidden(true)

@@ -12,28 +12,34 @@ struct FilmPosterView: View {
     let imageData: Data
     
     var body: some View {
-        ZStack {
-            Color.white
-            VStack {
-                Image(uiImage: UIImage(data: imageData) ?? UIImage(systemName: "exclamationmark.triangle")!)
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .cornerRadius(5)
-                    .shadow(radius: 5)
-                    .frame(maxHeight: UIScreen.main.bounds.height - 160)
-                
-                Text(movieTitle)
-                    .font(.headline)
-                    .multilineTextAlignment(.center)
-                    .padding(.bottom, 16)
-                    .lineLimit(2)
-                    .minimumScaleFactor(0.5)
-            }
-            .padding()
+        VStack {
+            Image(uiImage: UIImage(data: imageData) ?? UIImage(systemName: "exclamationmark.triangle")!)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .cornerRadius(5)
+                .shadow(radius: 5)
+                .frame(maxHeight: UIScreen.main.bounds.height - 160)
+            
+            Text(movieTitle)
+                .font(.headline)
+                .multilineTextAlignment(.center)
+                .padding(.bottom, 16)
+                .lineLimit(2)
+                .minimumScaleFactor(0.5)
+                .foregroundColor(Color("bananna-yellow"))
         }
+        .padding()
         .frame(maxWidth: UIScreen.main.bounds.width - 32)
         .cornerRadius(15)
         .shadow(radius: 5)
+        .background {
+            RoundedRectangle(cornerRadius: 10)
+                .fill(Color.black.opacity(0.75))
+                .overlay(
+                    RoundedRectangle(cornerRadius: 10)
+                        .stroke(Color("bananna-yellow"), lineWidth: 2)
+                )
+        }
     }
 }
 

@@ -39,21 +39,28 @@ struct FilmDetailView: View {
                     .aspectRatio(contentMode: .fill)
                     .frame(height: 160)
                     .cornerRadius(10)
+                    .padding(1)
                 
                 Text(film.title ?? "TBA")
-                    .font(.headline)
                     .multilineTextAlignment(.center)
+                    .font(.headline)
+                    .foregroundColor(Color("bananna-yellow"))
                     .lineLimit(2)
                     .padding(.horizontal, 8)
                 
                 Text("Release Date: \(film.releaseDate ?? "")")
                     .font(.subheadline)
+                    .foregroundColor(Color("bananna-yellow"))
                 
                 Text("Directors: \(film.director ?? "")")
+                    .multilineTextAlignment(.center)
                     .font(.subheadline)
+                    .foregroundColor(Color("bananna-yellow"))
                 
                 Text("Producers: \(film.producer ?? "")")
+                    .multilineTextAlignment(.center)
                     .font(.subheadline)
+                    .foregroundColor(Color("bananna-yellow"))
                 
                 Button {
                     router.push(
@@ -63,13 +70,17 @@ struct FilmDetailView: View {
                 } label: {
                     Text("View film characters")
                         .foregroundColor(Color("bananna-yellow"))
+                        .fontWeight(.semibold)
                 }
                 .padding(.bottom)
             }
             .background {
                 RoundedRectangle(cornerRadius: 10)
-                    .fill(Color.gray)
-                    .shadow(radius: 5)
+                    .fill(Color.black.opacity(0.75))
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 10)
+                            .stroke(Color("bananna-yellow"), lineWidth: 2)
+                    )
             }
             
             Button(action: {
