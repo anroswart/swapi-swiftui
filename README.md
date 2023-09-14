@@ -4,9 +4,5 @@ A SWAPI app using SwiftUI
 ## Screenshots
 |||
 |-|-|
-|![image](https://github.com/anroswart/swapi-swiftui/assets/23210431/3444e752-1a8e-4b06-b3be-b938c0af86e6)|![image](https://github.com/anroswart/swapi-swiftui/assets/23210431/a2c5ffec-bcba-490e-8f15-db90ce13da3a)|
-|![image](https://github.com/anroswart/swapi-swiftui/assets/23210431/6421d7d7-5fed-4cf7-b049-b6cdba634ce7)|![image](https://github.com/anroswart/swapi-swiftui/assets/23210431/a52ad03b-1009-41e8-8229-82e7e1ae5d59)|
-
-
-
-
+|![image](https://github.com/anroswart/swapi-swiftui/assets/23210431/95b5b43b-245a-439d-b067-c92442299859)|![image](https://github.com/anroswart/swapi-swiftui/assets/23210431/0b97a883-d81f-4d10-b671-cdf50a4a8afc)|
+|![image](https://github.com/anroswart/swapi-swiftui/assets/23210431/34f7d9a3-74b1-4a01-9181-7714ac25f10b)|![image](https://github.com/anroswart/swapi-swiftui/assets/23210431/14c5530d-c3cf-4ae1-a1ae-023a1b0a6c63)|
